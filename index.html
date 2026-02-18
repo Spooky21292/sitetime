@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Mind / Thought Space</title>
+  <meta name="description" content="Digital Mind — a quiet philosophical hacker thought space." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="bg-base" aria-hidden="true"></div>
+  <canvas id="nebula-canvas" aria-hidden="true"></canvas>
+
+  <div class="float-layer" aria-hidden="true">
+    <span class="code-fragment">&lt;/&gt;</span>
+    <span class="code-fragment">{ mind: calm }</span>
+    <span class="code-fragment">λ resolve(fear)</span>
+    <span class="code-fragment">if (stuck) breathe();</span>
+    <span class="code-fragment">π · patience</span>
+    <span class="code-fragment">∑ small steps</span>
+    <span class="code-fragment">for _ in growth:</span>
+    <span class="code-fragment">commit(discipline)</span>
+    <span class="code-fragment">const silence = true;</span>
+  </div>
+
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <main>
+    <section class="hero" id="top">
+      <p class="eyebrow">Thought Space</p>
+      <h1>DIGITAL MIND</h1>
+      <p class="subtitle">A quiet space for code, fear, and growth.</p>
+      <button class="enter-btn" type="button" data-scroll-target="#thought">Enter</button>
+    </section>
+
+    <section class="thought section" id="thought">
+      <p class="section-label">Thought of the Day</p>
+      <article class="thought-card reveal">
+        <p class="thought-text" id="thoughtText">Loading thought...</p>
+      </article>
+    </section>
+
+    <section class="fragments section" id="fragments">
+      <p class="section-label">Fragments</p>
+      <div class="fragment-grid">
+        <article class="fragment-card reveal">
+          <p>Страх не ошибка. Ошибка — жить по его API.</p>
+        </article>
+        <article class="fragment-card reveal">
+          <p>Чистый код начинается с честного диалога с собой.</p>
+        </article>
+        <article class="fragment-card reveal">
+          <p>Discipline is what remains when motivation logs out.</p>
+        </article>
+        <article class="fragment-card reveal">
+          <p>Каждый рефакторинг — репетиция внутреннего порядка.</p>
+        </article>
+        <article class="fragment-card reveal">
+          <p>Growth compiles quietly, line by line.</p>
+        </article>
+        <article class="fragment-card reveal">
+          <p>Самоуважение — это когда делаешь сложно, но правильно.</p>
+        </article>
+        <article class="fragment-card reveal">
+          <p>Silence is a debugger for noisy thoughts.</p>
+        </article>
+        <article class="fragment-card reveal">
+          <p>Ты не обязан быть быстрым. Ты обязан быть честным.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built in silence. <span id="year"></span></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="assets/js/thoughts.js"></script>
+  <script src="assets/js/background.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
