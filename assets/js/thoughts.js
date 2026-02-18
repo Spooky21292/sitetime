@@ -1,0 +1,22 @@
+window.THOUGHTS = [
+  'Страх не уходит. Ты просто учишься писать рядом с ним.',
+  'The cleanest architecture is built from honest constraints.',
+  'Если день тяжёлый — сделай один точный коммит.',
+  'Growth is usually boring before it becomes visible.',
+  'Умение ждать — тоже инженерный навык.',
+  'You are allowed to be slow, not absent.',
+  'Дисциплина — это уважение к будущему себе.',
+  'Code reveals character when deadlines get loud.',
+  'Не каждый баг чинится скоростью. Некоторые — тишиной.',
+  'Fear shrinks when named precisely.',
+  'Маленький шаг сегодня экономит годы сожалений.',
+  'Refactor your habits like legacy code.',
+  'Сравнивай себя только с версией, которая вчера сдалась.',
+  'Confidence is a side effect of repeated honesty.',
+  'Глубина приходит, когда перестаёшь играть в срочность.',
+  'Done with care beats done with panic.',
+  'Самоуважение растёт там, где слово совпадает с действием.',
+  'Silence is not emptiness; it is processing.',
+  'Ты не обязан быть гением, чтобы быть надёжным.',
+  'Build slowly, but build in truth.'
+];
